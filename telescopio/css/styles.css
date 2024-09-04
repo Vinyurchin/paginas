@@ -1,3 +1,49 @@
 * {
     margin: 0px;
 }
+
+body {
+    background-image: url('../imagenes/estrellado.webp');
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 100%);
+    margin-left: 20px;
+}
+
+.nav-link:first-child {
+    margin-left: 0;
+}
+
+h1, p, legend {
+    color: rgb(255, 255, 255);
+}
+
+.entrada {
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
